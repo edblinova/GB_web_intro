@@ -1,0 +1,48 @@
+/*main css*/
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 1920px;
+    height: auto;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-family: Cambria, serif, Cambria, sans-serif;
+    background-color: rgba(253, 229, 150, 0.253);
+}
+
+main {
+    background-size: 100%;
+    background-position-y: 0px;
+}
+
+main.main {
+    height: auto;
+    background-image: url(../../img/fon.jpg);
+}
+
+main.photo {
+    height: auto;
+    background-image: url(../../img/spheras.png);
+}
+
+main.example {
+    height: auto;
+    background-image: url(../../img/fon2.jpg);
+}
+
+main.order {
+    height: auto;
+    background-image: url(../../img/fon2.jpg);
+}
+
+.mains, .photos, .examples, .orders {
+    width: 1050px;
+    background-color: white;
+    opacity: 0.9;
+    margin-left: 250px;
+}
+
+.photos {
+    opacity: 0.98;
+}

@@ -1,0 +1,25 @@
+/*вращающася иконка*/
+
+.transform {
+    position: absolute;
+    bottom: 0;
+    border-radius: 5px;
+    -webkit-animation: notransform 5s infinite;
+    animation: notransform 5s infinite;
+  }
+  
+  .rotateY {
+    -webkit-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+  }
+  
+  @-webkit-keyframes notransform {
+    50% {transform: none;}
+  }
+  
+  @keyframes notransform {
+    50% {transform: none;}
+  }
