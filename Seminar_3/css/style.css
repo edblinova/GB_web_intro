@@ -1,0 +1,14 @@
+/*font-face*/
+@import url('./font-face/font-face.css');
+
+/*main css*/
+@import url('./main/main.css');
+
+/*text*/
+@import url('./text/text.css');
+
+/*block*/
+@import url('./block/block.css');
+
+/*вращающася иконка*/
+@import url('./icon/icon.css');
